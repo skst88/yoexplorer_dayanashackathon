@@ -1,0 +1,6 @@
+export const API = 'http://localhost:8006'
+export const APIusers = 'http://localhost:8006/users'
+export const APIpictures = 'http://localhost:8006/pictures'
+export const APIcomments = 'http://localhost:8006/comments'
+export const APIfeedbacks = 'http://localhost:8006/feedbacks'
+export const APIlikes = 'http://localhost:8006/likes'

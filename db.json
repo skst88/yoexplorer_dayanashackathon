@@ -1,19 +1,174 @@
 {
-  "posts": [
+  "users": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "username": "Ibraim",
+      "password": "qweqwe123",
+      "email": "qwe@qwe.qwe",
+      "type": "admin",
+      "age": "23",
+      "id": 4,
+      "name": "Kyrgyzs",
+      "experience": "5 лет"
+    },
+    {
+      "username": "dayanaa",
+      "password": "qweqwe123",
+      "email": "qwe@qwe.qwe",
+      "type": "user",
+      "age": "23",
+      "id": 5
+    },
+    {
+      "username": "Dayana",
+      "password": "qweqwe123",
+      "email": "qwe@qwe.qwe",
+      "type": "admin",
+      "age": "23",
+      "id": 6
+    },
+    {
+      "username": "Nurlan",
+      "password": "qweqwe123",
+      "email": "qwe@qwe.qwe",
+      "type": "user",
+      "age": "23",
+      "id": 7
+    }
+  ],
+  "pictures": [
+    {
+      "name": "Kyrgyzstan",
+      "category": "animals",
+      "price": "100",
+      "image": "https://scontent.ffru2-1.fna.fbcdn.net/v/t39.30808-6/240926703_4276952682421275_1976327664876667530_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=730e14&_nc_ohc=CSs7-MD0KDkAX8s2eec&_nc_ht=scontent.ffru2-1.fna&oh=18ae458fce12ddfa629619a0d7c1ca12&oe=61A8B666",
+      "id": 5
+    },
+    {
+      "name": "Summer vibe",
+      "category": "summer",
+      "price": "102",
+      "image": "https://firebasestorage.googleapis.com/v0/b/yoexplorer-54cb4.appspot.com/o/9.JPG?alt=media&token=b8604669-e2bb-4492-906a-7638837b8f1b",
+      "id": 8
+    },
+    {
+      "name": "What you like in summer?",
+      "category": "summer",
+      "price": "103",
+      "image": "https://firebasestorage.googleapis.com/v0/b/yoexplorer-54cb4.appspot.com/o/15.JPG?alt=media&token=4aebc4dd-e763-4ae2-a913-ef334ad6c00b",
+      "id": 9
+    },
+    {
+      "name": "Winter vibe",
+      "category": "winter",
+      "price": "999",
+      "image": "https://firebasestorage.googleapis.com/v0/b/yoexplorer-54cb4.appspot.com/o/23.jpeg?alt=media&token=678c2a18-c8b0-4333-b93c-02bcb84b6a5a",
+      "id": 10
+    },
+    {
+      "name": "What you like in winter?",
+      "category": "winter",
+      "price": "100",
+      "image": "https://firebasestorage.googleapis.com/v0/b/yoexplorer-54cb4.appspot.com/o/13.JPG?alt=media&token=a9b17375-b6a7-4b5c-8658-8358c81340df",
+      "id": 11
+    },
+    {
+      "name": "Friendly eagle",
+      "category": "animals",
+      "price": "102",
+      "image": "https://firebasestorage.googleapis.com/v0/b/yoexplorer-54cb4.appspot.com/o/20.jpeg?alt=media&token=b7647666-19b6-401b-bf88-6c41164dbbd5",
+      "id": 12
+    },
+    {
+      "name": "Lovely Bishkek",
+      "category": "city",
+      "price": "899",
+      "image": "https://firebasestorage.googleapis.com/v0/b/yoexplorer-54cb4.appspot.com/o/first-photo.JPG?alt=media&token=fe5d518b-c7da-4c97-ac4a-dfe6c9388e47",
+      "id": 13
+    },
+    {
+      "name": "Time in Bishkek",
+      "category": "city",
+      "price": "234",
+      "image": "https://firebasestorage.googleapis.com/v0/b/yoexplorer-54cb4.appspot.com/o/2.JPG?alt=media&token=2c0da0e1-f224-4993-9a15-ea96b204b3cb",
+      "id": 14
     }
   ],
   "comments": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "text": "The best photo!!!",
+      "owner": "dayanaa",
+      "doctorId": "4",
+      "createdAt": "2021-11-30T06:25:23.629Z",
+      "createdAtMs": 1638253523629,
+      "id": 1
+    },
+    {
+      "text": "What a beautiful view!",
+      "owner": "dayanaa",
+      "doctorId": "4",
+      "createdAt": "2021-11-30T06:27:57.679Z",
+      "createdAtMs": 1638253677679,
+      "id": 2
+    },
+    {
+      "text": "Post more photos!",
+      "owner": "dayanaa",
+      "doctorId": "4",
+      "createdAt": "2021-11-30T06:28:25.578Z",
+      "createdAtMs": 1638253705578,
+      "id": 3
+    },
+    {
+      "text": "паролорпа",
+      "owner": "dayanaa",
+      "doctorId": "5",
+      "createdAt": "2021-11-30T14:23:31.226Z",
+      "createdAtMs": 1638282211226,
+      "id": 4
+    },
+    {
+      "text": "vefcsxs",
+      "owner": "dayanaa",
+      "doctorId": "5",
+      "createdAt": "2021-11-30T15:15:51.742Z",
+      "createdAtMs": 1638285351742,
+      "id": 5
+    },
+    {
+      "text": "",
+      "owner": "dayanaa",
+      "doctorId": "5",
+      "createdAt": "2021-11-30T15:17:57.090Z",
+      "createdAtMs": 1638285477090,
+      "id": 6
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "feedbacks": [
+    {
+      "owner": "dayanaa",
+      "adminId": "4",
+      "rate": 5,
+      "id": 1
+    },
+    {
+      "owner": "dayanaa",
+      "adminId": "5",
+      "rate": 40,
+      "id": 2
+    }
+  ],
+  "likes": [
+    {
+      "owner": "qwe@qwe.qwe",
+      "productId": "8",
+      "rate": 0,
+      "id": 1
+    },
+    {
+      "owner": "qwe@qwe.qwe",
+      "productId": "5",
+      "rate": 0,
+      "id": 2
+    }
+  ]
 }
